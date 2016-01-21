@@ -124,6 +124,7 @@
 			<axis xyz="0 0 -1"/>
 			<limit effort="${joint_effort_limit}" lower="0.0" upper="0.84" velocity="${joint_velocity_limit}"/>
 			<dynamics damping="${joint_damping}" friction="${joint_friction}"/>
+			<mimic joint="${name}_j32_joint" multiplier="0.344" />
 		</joint>
 
 		<transmission name="${name}_j33_transmission">
@@ -260,6 +261,7 @@
 			<axis xyz="0 0 -1"/>
 			<limit effort="${joint_effort_limit}" lower="0.0" upper="0.84" velocity="${joint_velocity_limit}"/>
 			<dynamics damping="${joint_damping}" friction="${joint_friction}"/>
+			<mimic joint="${name}_j12_joint" multiplier="0.344" />
 		</joint>
 
 		<transmission name="${name}_j13_transmission">
@@ -306,6 +308,7 @@
 			<axis xyz="0 0 1"/>
 			<limit effort="${joint_effort_limit}" lower="0" upper="3.1416" velocity="${joint_velocity_limit}"/>
 			<dynamics damping="${joint_damping}" friction="${joint_friction}"/>
+			<mimic joint="${name}_j11_joint" multiplier="1" />
 		</joint>
 
 		<transmission name="${name}_j21_transmission">
@@ -397,6 +400,7 @@
 			<axis xyz="0 0 -1"/>
 			<limit effort="${joint_effort_limit}" lower="0.0" upper="0.84" velocity="${joint_velocity_limit}"/>
 			<dynamics damping="${joint_damping}" friction="${joint_friction}"/>
+			<mimic joint="${name}_j22_joint" multiplier="0.344" />
 		</joint>
 
 		<transmission name="${name}_j23_transmission">

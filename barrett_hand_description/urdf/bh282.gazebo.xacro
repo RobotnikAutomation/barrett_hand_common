@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://ros.org/wiki/xacro">
   <xacro:macro name="bh_gazebo" params="name">
-
+<!--
 	<gazebo>
 	   	<plugin name="mimic_plugin" filename="libgazebo_mimic_plugin.so">
        		   <joint>${name}_j11_joint</joint>
@@ -33,7 +33,7 @@
        		   <multiplier>0.344</multiplier>
        		</plugin>
         </gazebo> 
-
+-->
 	<gazebo reference="${name}_base_link">
 		<material>Gazebo/White</material>
 		<turnGravityOff>False</turnGravityOff>
