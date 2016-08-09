@@ -2,7 +2,7 @@
 <robot name="bhand" xmlns:xacro="http://www.ros.org/wiki/xacro"> 
 
 	<!-- Available choices: bh282.urdf.xacro, bh280.urdf.xacro -->	
-	<xacro:include filename="$(find barrett_hand_description)/urdf/bh282.urdf.xacro" />
+	<xacro:include filename="$(find barrett_hand_description)/urdf/bh280.urdf.xacro" />
 
 	<!-- z-coordinate is not 0 because otherwise the hand base tilts when the simulation is started -->
 	<link name="base_link">

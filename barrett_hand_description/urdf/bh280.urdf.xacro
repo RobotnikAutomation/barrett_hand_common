@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 
-<robot xmlns:xacro="http://www.ros.org/wiki/xacro"> 
+<robot xmlns:xacro="http://ros.org/wiki/xacro"> 
 
 	<!-- Import all Gazebo-customization elements, including Gazebo colors -->
 	<xacro:include filename="$(find barrett_hand_description)/urdf/bh282.gazebo.xacro" />
@@ -17,7 +17,7 @@
 	<xacro:macro name="bhand_macro" params="parent name *origin">
 		
 		<joint name="${name}_base_joint" type="fixed">
-			<insert_block name="origin"/>
+			<xacro:insert_block name="origin"/>
 			<parent link="${parent}"/>
 			<child link="${name}_base_link"/>
 		</joint>  
