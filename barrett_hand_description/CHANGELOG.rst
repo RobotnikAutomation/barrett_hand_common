@@ -2,8 +2,8 @@
 Changelog for package barrett_hand_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.1.1 (2016-08-09)
+------------------
 * cleaned up bh280 mimic joints
 * change bh280 to mimic joints
 * updated gazebo elements to support multiples/renaming
