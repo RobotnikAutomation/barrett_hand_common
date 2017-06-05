@@ -416,6 +416,8 @@
 			</actuator>
 		</transmission>
 
+		<xacro:bh_gazebo name="${name}"/>
+
 		<!-- Imaginary joints for transform from tactile sensors -->
 		<!-- Radian value obtained from graspit description of 40 degrees -->
 
