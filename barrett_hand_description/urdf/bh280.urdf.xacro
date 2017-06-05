@@ -4,6 +4,7 @@
 
 	<!-- Import all Gazebo-customization elements, including Gazebo colors -->
 	<xacro:include filename="$(find barrett_hand_description)/urdf/bh282.gazebo.xacro" />
+	<xacro:include filename="$(find barrett_hand_description)/urdf/bh280_tactile.urdf.xacro" />
 
 	<!-- Constants for robot dimensions -->
 	<xacro:property name="PI" value="3.1415926535897931"/>
@@ -414,10 +415,35 @@
 			  <motorTorqueConstant>1</motorTorqueConstant>
 			</actuator>
 		</transmission>
-		
-		<xacro:bh_gazebo name="${name}"/>
+
+		<!-- Imaginary joints for transform from tactile sensors -->
+		<!-- Radian value obtained from graspit description of 40 degrees -->
+
+		<joint name="${name}_finger_14_joint" type="fixed">
+			<parent link="${name}_finger_13_link"/>
+			<child link="${name}_finger_14_link"/>
+			<origin xyz="0 0 0" rpy="0 0 0.698132" />
+		</joint>
+		<link name="${name}_finger_14_link"/>
+
+		<joint name="${name}_finger_24_joint" type="fixed">
+			<parent link="${name}_finger_23_link"/>
+			<child link="${name}_finger_24_link"/>
+			<origin xyz="0 0 0" rpy="0 0 0.698132" />
+		</joint>
+		<link name="${name}_finger_24_link"/>
+
+		<joint name="${name}_finger_34_joint" type="fixed">
+			<parent link="${name}_finger_33_link"/>
+			<child link="${name}_finger_34_link"/>
+			<origin xyz="0 0 0" rpy="0 0 0.698132" />
+		</joint>
+		<link name="${name}_finger_34_link"/>
+
+		<!-- Auto generated tactile sensor links -->
+
+		<xacro:bh_tactile name="bh"/>
 		
 	</xacro:macro>
 	
 </robot>
-
