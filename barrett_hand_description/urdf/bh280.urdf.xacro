@@ -84,10 +84,10 @@
 		<transmission name="${name}_j32_transmission">
 			<type>transmission_interface/SimpleTransmission</type>
 			<joint name="${name}_j32_joint">
-			  <hardwareInterface>PositionJointInterface</hardwareInterface>
+			  <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
 			</joint>
 			<actuator name="${name}_j32">
-			  <hardwareInterface>PositionJointInterface</hardwareInterface>
+			  <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
 			  <mechanicalReduction>1</mechanicalReduction>
 			  <motorTorqueConstant>1</motorTorqueConstant>
 			</actuator>
@@ -130,10 +130,10 @@
 		<transmission name="${name}_j33_transmission">
 			<type>transmission_interface/SimpleTransmission</type>
 			<joint name="${name}_j33_joint">
- 			   <hardwareInterface>PositionJointInterface</hardwareInterface>
+ 			   <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
 			</joint>
 			<actuator name="${name}_j33">
-			  <hardwareInterface>PositionJointInterface</hardwareInterface>
+			  <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
 			  <mechanicalReduction>1</mechanicalReduction>
 			  <motorTorqueConstant>1</motorTorqueConstant>
 			</actuator>
@@ -175,10 +175,10 @@
 		<transmission name="${name}_j11_transmission">
 			<type>transmission_interface/SimpleTransmission</type>
 			<joint name="${name}_j11_joint">
-			   <hardwareInterface>PositionJointInterface</hardwareInterface>
+			   <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
 			</joint>
 			<actuator name="${name}_j11">
-			  <hardwareInterface>PositionJointInterface</hardwareInterface>
+			  <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
 			  <mechanicalReduction>1</mechanicalReduction>
 			  <motorTorqueConstant>1</motorTorqueConstant>
 			</actuator>
@@ -221,10 +221,10 @@
 		<transmission name="${name}_j12_transmission">
 			<type>transmission_interface/SimpleTransmission</type>
 			<joint name="${name}_j12_joint">
-			   <hardwareInterface>PositionJointInterface</hardwareInterface>
+			   <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
 			</joint>
 			<actuator name="${name}_j12">
-			  <hardwareInterface>PositionJointInterface</hardwareInterface>
+			  <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
 			  <mechanicalReduction>1</mechanicalReduction>
 			  <motorTorqueConstant>1</motorTorqueConstant>
 			</actuator>
@@ -267,10 +267,10 @@
 		<transmission name="${name}_j13_transmission">
 			<type>transmission_interface/SimpleTransmission</type>
 			<joint name="${name}_j13_joint">
-			   <hardwareInterface>PositionJointInterface</hardwareInterface>
+			   <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
 			</joint>
 			<actuator name="${name}_j13">
-			  <hardwareInterface>PositionJointInterface</hardwareInterface>
+			  <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
 			  <mechanicalReduction>1</mechanicalReduction>
 			  <motorTorqueConstant>1</motorTorqueConstant>
 			</actuator>
@@ -314,10 +314,10 @@
 		<transmission name="${name}_j21_transmission">
 			<type>transmission_interface/SimpleTransmission</type>
 			<joint name="${name}_j21_joint">
-			   <hardwareInterface>PositionJointInterface</hardwareInterface>
+			   <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
 			</joint>
 			<actuator name="${name}_j21">
-			  <hardwareInterface>PositionJointInterface</hardwareInterface>
+			  <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
 			  <mechanicalReduction>1</mechanicalReduction>
 			  <motorTorqueConstant>1</motorTorqueConstant>
 			</actuator>
@@ -360,10 +360,10 @@
 		<transmission name="${name}_j22_transmission">
 			<type>transmission_interface/SimpleTransmission</type>
 			<joint name="${name}_j22_joint">
- 			   <hardwareInterface>PositionJointInterface</hardwareInterface>
+ 			   <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
 			</joint>
 			<actuator name="${name}_j22">
-			  <hardwareInterface>PositionJointInterface</hardwareInterface>
+			  <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
 			  <mechanicalReduction>1</mechanicalReduction>
 			  <motorTorqueConstant>1</motorTorqueConstant>
 			</actuator>
@@ -406,10 +406,10 @@
 		<transmission name="${name}_j23_transmission">
 			<type>transmission_interface/SimpleTransmission</type>
 			<joint name="${name}_j23_joint">
-			   <hardwareInterface>PositionJointInterface</hardwareInterface>
+			   <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
 			</joint>
 			<actuator name="${name}_j23">
-			  <hardwareInterface>PositionJointInterface</hardwareInterface>
+			  <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
 			  <mechanicalReduction>1</mechanicalReduction>
 			  <motorTorqueConstant>1</motorTorqueConstant>
 			</actuator>
